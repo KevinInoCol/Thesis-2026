@@ -1,0 +1,707 @@
+{
+  "nuevo": {
+    "label": "NUEVO",
+    "fichero": "trn_2023_v0_000_main-agent.bvh",
+    "tamano_mb": 8.43,
+    "n_articulaciones": 83,
+    "raiz": "body_world",
+    "canales_por_articulacion": [
+      6
+    ],
+    "canales_uniformes": true,
+    "orden_rotacion": "zxy",
+    "n_valores_por_frame": 498,
+    "frames": 1950,
+    "frame_time": 0.0333333,
+    "fps": 30.0,
+    "duracion_seg": 65.0,
+    "separador": {
+      "valores_split_espacio_simple": 498,
+      "valores_split_generico": 498,
+      "compatible_con_parser_upstream": true,
+      "valores_esperados_por_jerarquia": 498
+    },
+    "escala": {
+      "up_axis_probable": "Y",
+      "extent_por_eje": [
+        325.898,
+        435.791,
+        136.947
+      ],
+      "unidades": "centimetros (probable)",
+      "factor_a_metros": 0.01
+    },
+    "articulaciones": [
+      "body_world",
+      "b_root",
+      "b_spine0",
+      "b_spine1",
+      "b_spine2",
+      "b_spine3",
+      "b_neck0",
+      "b_head",
+      "b_head_null",
+      "b_l_eye",
+      "b_r_eye",
+      "b_jaw",
+      "b_jaw_null",
+      "b_teeth",
+      "b_tongue0",
+      "b_tongue1",
+      "b_tongue2",
+      "b_tongue3",
+      "b_tongue4",
+      "b_l_tongue4_1",
+      "b_r_tongue4_1",
+      "b_l_tongue3_1",
+      "b_r_tongue3_1",
+      "b_l_tongue2_1",
+      "b_r_tongue2_1",
+      "b_r_tongue1_1",
+      "b_l_tongue1_1",
+      "b_r_shoulder",
+      "p_r_scap",
+      "b_r_arm",
+      "b_r_arm_twist",
+      "b_r_forearm",
+      "b_r_wrist_twist",
+      "b_r_wrist",
+      "b_r_index1",
+      "b_r_index2",
+      "b_r_index3",
+      "b_r_ring1",
+      "b_r_ring2",
+      "b_r_ring3",
+      "b_r_middle1",
+      "b_r_middle2",
+      "b_r_middle3",
+      "b_r_pinky1",
+      "b_r_pinky2",
+      "b_r_pinky3",
+      "b_r_thumb0",
+      "b_r_thumb1",
+      "b_r_thumb2",
+      "b_r_thumb3",
+      "b_l_shoulder",
+      "p_l_delt",
+      "p_l_scap",
+      "b_l_arm",
+      "b_l_arm_twist",
+      "b_l_forearm",
+      "b_l_wrist_twist",
+      "b_l_wrist",
+      "b_l_thumb0",
+      "b_l_thumb1",
+      "b_l_thumb2",
+      "b_l_thumb3",
+      "b_l_index1",
+      "b_l_index2",
+      "b_l_index3",
+      "b_l_middle1",
+      "b_l_middle2",
+      "b_l_middle3",
+      "b_l_ring1",
+      "b_l_ring2",
+      "b_l_ring3",
+      "b_l_pinky1",
+      "b_l_pinky2",
+      "b_l_pinky3",
+      "p_navel",
+      "b_r_upleg",
+      "b_r_leg",
+      "b_r_foot_twist",
+      "b_r_foot",
+      "b_l_upleg",
+      "b_l_leg",
+      "b_l_foot_twist",
+      "b_l_foot"
+    ],
+    "jerarquia": [
+      {
+        "name": "body_world",
+        "parent": null,
+        "depth": 0
+      },
+      {
+        "name": "b_root",
+        "parent": "body_world",
+        "depth": 1
+      },
+      {
+        "name": "b_spine0",
+        "parent": "b_root",
+        "depth": 2
+      },
+      {
+        "name": "b_spine1",
+        "parent": "b_spine0",
+        "depth": 3
+      },
+      {
+        "name": "b_spine2",
+        "parent": "b_spine1",
+        "depth": 4
+      },
+      {
+        "name": "b_spine3",
+        "parent": "b_spine2",
+        "depth": 5
+      },
+      {
+        "name": "b_neck0",
+        "parent": "b_spine3",
+        "depth": 6
+      },
+      {
+        "name": "b_head",
+        "parent": "b_neck0",
+        "depth": 7
+      },
+      {
+        "name": "b_head_null",
+        "parent": "b_head",
+        "depth": 8
+      },
+      {
+        "name": "b_l_eye",
+        "parent": "b_head",
+        "depth": 8
+      },
+      {
+        "name": "b_r_eye",
+        "parent": "b_head",
+        "depth": 8
+      },
+      {
+        "name": "b_jaw",
+        "parent": "b_head",
+        "depth": 8
+      },
+      {
+        "name": "b_jaw_null",
+        "parent": "b_jaw",
+        "depth": 9
+      },
+      {
+        "name": "b_teeth",
+        "parent": "b_jaw",
+        "depth": 9
+      },
+      {
+        "name": "b_tongue0",
+        "parent": "b_jaw",
+        "depth": 9
+      },
+      {
+        "name": "b_tongue1",
+        "parent": "b_tongue0",
+        "depth": 10
+      },
+      {
+        "name": "b_tongue2",
+        "parent": "b_tongue1",
+        "depth": 11
+      },
+      {
+        "name": "b_tongue3",
+        "parent": "b_tongue2",
+        "depth": 12
+      },
+      {
+        "name": "b_tongue4",
+        "parent": "b_tongue3",
+        "depth": 13
+      },
+      {
+        "name": "b_l_tongue4_1",
+        "parent": "b_tongue4",
+        "depth": 14
+      },
+      {
+        "name": "b_r_tongue4_1",
+        "parent": "b_tongue4",
+        "depth": 14
+      },
+      {
+        "name": "b_l_tongue3_1",
+        "parent": "b_tongue3",
+        "depth": 13
+      },
+      {
+        "name": "b_r_tongue3_1",
+        "parent": "b_tongue3",
+        "depth": 13
+      },
+      {
+        "name": "b_l_tongue2_1",
+        "parent": "b_tongue2",
+        "depth": 12
+      },
+      {
+        "name": "b_r_tongue2_1",
+        "parent": "b_tongue2",
+        "depth": 12
+      },
+      {
+        "name": "b_r_tongue1_1",
+        "parent": "b_tongue1",
+        "depth": 11
+      },
+      {
+        "name": "b_l_tongue1_1",
+        "parent": "b_tongue1",
+        "depth": 11
+      },
+      {
+        "name": "b_r_shoulder",
+        "parent": "b_spine3",
+        "depth": 6
+      },
+      {
+        "name": "p_r_scap",
+        "parent": "b_r_shoulder",
+        "depth": 7
+      },
+      {
+        "name": "b_r_arm",
+        "parent": "p_r_scap",
+        "depth": 8
+      },
+      {
+        "name": "b_r_arm_twist",
+        "parent": "b_r_arm",
+        "depth": 9
+      },
+      {
+        "name": "b_r_forearm",
+        "parent": "b_r_arm_twist",
+        "depth": 10
+      },
+      {
+        "name": "b_r_wrist_twist",
+        "parent": "b_r_forearm",
+        "depth": 11
+      },
+      {
+        "name": "b_r_wrist",
+        "parent": "b_r_wrist_twist",
+        "depth": 12
+      },
+      {
+        "name": "b_r_index1",
+        "parent": "b_r_wrist",
+        "depth": 13
+      },
+      {
+        "name": "b_r_index2",
+        "parent": "b_r_index1",
+        "depth": 14
+      },
+      {
+        "name": "b_r_index3",
+        "parent": "b_r_index2",
+        "depth": 15
+      },
+      {
+        "name": "b_r_ring1",
+        "parent": "b_r_wrist",
+        "depth": 13
+      },
+      {
+        "name": "b_r_ring2",
+        "parent": "b_r_ring1",
+        "depth": 14
+      },
+      {
+        "name": "b_r_ring3",
+        "parent": "b_r_ring2",
+        "depth": 15
+      },
+      {
+        "name": "b_r_middle1",
+        "parent": "b_r_wrist",
+        "depth": 13
+      },
+      {
+        "name": "b_r_middle2",
+        "parent": "b_r_middle1",
+        "depth": 14
+      },
+      {
+        "name": "b_r_middle3",
+        "parent": "b_r_middle2",
+        "depth": 15
+      },
+      {
+        "name": "b_r_pinky1",
+        "parent": "b_r_wrist",
+        "depth": 13
+      },
+      {
+        "name": "b_r_pinky2",
+        "parent": "b_r_pinky1",
+        "depth": 14
+      },
+      {
+        "name": "b_r_pinky3",
+        "parent": "b_r_pinky2",
+        "depth": 15
+      },
+      {
+        "name": "b_r_thumb0",
+        "parent": "b_r_wrist",
+        "depth": 13
+      },
+      {
+        "name": "b_r_thumb1",
+        "parent": "b_r_thumb0",
+        "depth": 14
+      },
+      {
+        "name": "b_r_thumb2",
+        "parent": "b_r_thumb1",
+        "depth": 15
+      },
+      {
+        "name": "b_r_thumb3",
+        "parent": "b_r_thumb2",
+        "depth": 16
+      },
+      {
+        "name": "b_l_shoulder",
+        "parent": "b_spine3",
+        "depth": 6
+      },
+      {
+        "name": "p_l_delt",
+        "parent": "b_l_shoulder",
+        "depth": 7
+      },
+      {
+        "name": "p_l_scap",
+        "parent": "b_l_shoulder",
+        "depth": 7
+      },
+      {
+        "name": "b_l_arm",
+        "parent": "p_l_scap",
+        "depth": 8
+      },
+      {
+        "name": "b_l_arm_twist",
+        "parent": "b_l_arm",
+        "depth": 9
+      },
+      {
+        "name": "b_l_forearm",
+        "parent": "b_l_arm_twist",
+        "depth": 10
+      },
+      {
+        "name": "b_l_wrist_twist",
+        "parent": "b_l_forearm",
+        "depth": 11
+      },
+      {
+        "name": "b_l_wrist",
+        "parent": "b_l_wrist_twist",
+        "depth": 12
+      },
+      {
+        "name": "b_l_thumb0",
+        "parent": "b_l_wrist",
+        "depth": 13
+      },
+      {
+        "name": "b_l_thumb1",
+        "parent": "b_l_thumb0",
+        "depth": 14
+      },
+      {
+        "name": "b_l_thumb2",
+        "parent": "b_l_thumb1",
+        "depth": 15
+      },
+      {
+        "name": "b_l_thumb3",
+        "parent": "b_l_thumb2",
+        "depth": 16
+      },
+      {
+        "name": "b_l_index1",
+        "parent": "b_l_wrist",
+        "depth": 13
+      },
+      {
+        "name": "b_l_index2",
+        "parent": "b_l_index1",
+        "depth": 14
+      },
+      {
+        "name": "b_l_index3",
+        "parent": "b_l_index2",
+        "depth": 15
+      },
+      {
+        "name": "b_l_middle1",
+        "parent": "b_l_wrist",
+        "depth": 13
+      },
+      {
+        "name": "b_l_middle2",
+        "parent": "b_l_middle1",
+        "depth": 14
+      },
+      {
+        "name": "b_l_middle3",
+        "parent": "b_l_middle2",
+        "depth": 15
+      },
+      {
+        "name": "b_l_ring1",
+        "parent": "b_l_wrist",
+        "depth": 13
+      },
+      {
+        "name": "b_l_ring2",
+        "parent": "b_l_ring1",
+        "depth": 14
+      },
+      {
+        "name": "b_l_ring3",
+        "parent": "b_l_ring2",
+        "depth": 15
+      },
+      {
+        "name": "b_l_pinky1",
+        "parent": "b_l_wrist",
+        "depth": 13
+      },
+      {
+        "name": "b_l_pinky2",
+        "parent": "b_l_pinky1",
+        "depth": 14
+      },
+      {
+        "name": "b_l_pinky3",
+        "parent": "b_l_pinky2",
+        "depth": 15
+      },
+      {
+        "name": "p_navel",
+        "parent": "b_spine2",
+        "depth": 5
+      },
+      {
+        "name": "b_r_upleg",
+        "parent": "b_root",
+        "depth": 2
+      },
+      {
+        "name": "b_r_leg",
+        "parent": "b_r_upleg",
+        "depth": 3
+      },
+      {
+        "name": "b_r_foot_twist",
+        "parent": "b_r_leg",
+        "depth": 4
+      },
+      {
+        "name": "b_r_foot",
+        "parent": "b_r_foot_twist",
+        "depth": 5
+      },
+      {
+        "name": "b_l_upleg",
+        "parent": "b_root",
+        "depth": 2
+      },
+      {
+        "name": "b_l_leg",
+        "parent": "b_l_upleg",
+        "depth": 3
+      },
+      {
+        "name": "b_l_foot_twist",
+        "parent": "b_l_leg",
+        "depth": 4
+      },
+      {
+        "name": "b_l_foot",
+        "parent": "b_l_foot_twist",
+        "depth": 5
+      }
+    ]
+  },
+  "referencia": {
+    "label": "REFERENCIA",
+    "fichero": "dance1_subject1.bvh",
+    "tamano_mb": 2.65,
+    "n_articulaciones": 22,
+    "raiz": "Hips",
+    "canales_por_articulacion": [
+      3,
+      6
+    ],
+    "canales_uniformes": false,
+    "orden_rotacion": "zyx",
+    "n_valores_por_frame": 69,
+    "frames": 3945,
+    "frame_time": 0.033333,
+    "fps": 30.0003,
+    "duracion_seg": 131.5,
+    "separador": {
+      "valores_split_espacio_simple": 69,
+      "valores_split_generico": 69,
+      "compatible_con_parser_upstream": true,
+      "valores_esperados_por_jerarquia": 69
+    },
+    "escala": {
+      "up_axis_probable": "X",
+      "extent_por_eje": [
+        586.14,
+        100.949,
+        223.165
+      ],
+      "unidades": "centimetros (probable)",
+      "factor_a_metros": 0.01
+    },
+    "articulaciones": [
+      "Hips",
+      "LeftUpLeg",
+      "LeftLeg",
+      "LeftFoot",
+      "LeftToe",
+      "RightUpLeg",
+      "RightLeg",
+      "RightFoot",
+      "RightToe",
+      "Spine",
+      "Spine1",
+      "Spine2",
+      "Neck",
+      "Head",
+      "LeftShoulder",
+      "LeftArm",
+      "LeftForeArm",
+      "LeftHand",
+      "RightShoulder",
+      "RightArm",
+      "RightForeArm",
+      "RightHand"
+    ],
+    "jerarquia": [
+      {
+        "name": "Hips",
+        "parent": null,
+        "depth": 0
+      },
+      {
+        "name": "LeftUpLeg",
+        "parent": "Hips",
+        "depth": 1
+      },
+      {
+        "name": "LeftLeg",
+        "parent": "LeftUpLeg",
+        "depth": 2
+      },
+      {
+        "name": "LeftFoot",
+        "parent": "LeftLeg",
+        "depth": 3
+      },
+      {
+        "name": "LeftToe",
+        "parent": "LeftFoot",
+        "depth": 4
+      },
+      {
+        "name": "RightUpLeg",
+        "parent": "Hips",
+        "depth": 1
+      },
+      {
+        "name": "RightLeg",
+        "parent": "RightUpLeg",
+        "depth": 2
+      },
+      {
+        "name": "RightFoot",
+        "parent": "RightLeg",
+        "depth": 3
+      },
+      {
+        "name": "RightToe",
+        "parent": "RightFoot",
+        "depth": 4
+      },
+      {
+        "name": "Spine",
+        "parent": "Hips",
+        "depth": 1
+      },
+      {
+        "name": "Spine1",
+        "parent": "Spine",
+        "depth": 2
+      },
+      {
+        "name": "Spine2",
+        "parent": "Spine1",
+        "depth": 3
+      },
+      {
+        "name": "Neck",
+        "parent": "Spine2",
+        "depth": 4
+      },
+      {
+        "name": "Head",
+        "parent": "Neck",
+        "depth": 5
+      },
+      {
+        "name": "LeftShoulder",
+        "parent": "Spine2",
+        "depth": 4
+      },
+      {
+        "name": "LeftArm",
+        "parent": "LeftShoulder",
+        "depth": 5
+      },
+      {
+        "name": "LeftForeArm",
+        "parent": "LeftArm",
+        "depth": 6
+      },
+      {
+        "name": "LeftHand",
+        "parent": "LeftForeArm",
+        "depth": 7
+      },
+      {
+        "name": "RightShoulder",
+        "parent": "Spine2",
+        "depth": 4
+      },
+      {
+        "name": "RightArm",
+        "parent": "RightShoulder",
+        "depth": 5
+      },
+      {
+        "name": "RightForeArm",
+        "parent": "RightArm",
+        "depth": 6
+      },
+      {
+        "name": "RightHand",
+        "parent": "RightForeArm",
+        "depth": 7
+      }
+    ]
+  }
+}
