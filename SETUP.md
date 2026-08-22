@@ -137,8 +137,15 @@ Entonces:
 `snapshots/lafan1_baseline.png` es la referencia contra la que se compararon los
 resultados de TWH. Para regenerarla necesitas LAFAN1, que se descarga de
 [ubisoft-laforge-animation-dataset](https://github.com/ubisoft/ubisoft-laforge-animation-dataset)
-(`lafan1/lafan1.zip`, ~333 MB) y se extrae en `motion_data/lafan1/`. Solo hace
-falta si quieres rehacer la comparativa; para transferir tus propios BVH no.
+(`lafan1/lafan1.zip`, ~333 MB) y se extrae en `motion_data/lafan1/`.
+
+Cuando hace falta LAFAN1:
+
+- **No** para transferir BVH de esqueleto TWH que ya funcionan.
+- **Sí** para rehacer la comparativa de `snapshots/`.
+- **Sí** para adaptar un rig nuevo: `derive_rot_offsets.py` y
+  `validate_retarget.py` lo usan como referencia, y `diagnose_bone_axes.py`
+  tiene la ruta fija en el codigo.
 
 ## Lo que no viene en el repo
 
